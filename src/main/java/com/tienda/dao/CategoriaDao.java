@@ -4,10 +4,13 @@
  */
 package com.tienda.dao;
 
+import com.tienda.domain.categoria;
+import org.springframework.data.jpa.repository.JpaRepository;
+
 /**
  *
  * @author maric
  */
-public interface CategoriaDao {
+public interface CategoriaDao extends JpaRepository <categoria, Long> {
     
 }
